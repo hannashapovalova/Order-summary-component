@@ -20,7 +20,7 @@ body {
     background-size: cover;
     background-color: var(--pale-blue);
     font-family: 'Red Hat Display', sans-serif;
-    
+    font-size: 16px;
 }
 
 .card {
@@ -28,12 +28,16 @@ body {
     background-color: white;
     color: var(--desaturated-blue);
     border-radius: 20px;
+    overflow: hidden;
 }
 .hero-image {
     width: 100%;
 }
 .container {
     padding: 30px;
+}
+.container > * {
+    margin: 13px 0;
 }
 .title {
     color: var(--dark-blue);
