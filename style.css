@@ -18,6 +18,10 @@ body {
     background-color: white;
     color: var(--desaturated-blue);
 }
+
+.hero-image {
+    width: 100%;
+}
 .title {
     color: var(--dark-blue);
     font-weight: 900;
