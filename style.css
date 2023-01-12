@@ -1,9 +1,17 @@
+
+
 :root {
 --pale-blue: hsl(225, 100%, 94%);
 --bright-blue: hsl(245, 75%, 52%);
 --very-pale-blue: hsl(225, 100%, 98%);
 --desaturated-blue: hsl(224, 23%, 55%);
 --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -17,13 +25,19 @@ body {
     width: 450px;
     background-color: white;
     color: var(--desaturated-blue);
+    border-radius: 20px;
 }
-
 .hero-image {
     width: 100%;
+}
+.container {
+    padding: 30px;
 }
 .title {
     color: var(--dark-blue);
     font-weight: 900;
     font-size: 32px;
+}
+.order-description {
+    line-height: 25px;
 }
